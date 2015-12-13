@@ -1,0 +1,2210 @@
+2014-07-30 18:09:23 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.name' in 'field list'
+Request URL: /quiz/tasks/add
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(2905): DboSource->read(Object(User), Array)
+#5 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(2877): Model->_readDataSource('list', Array)
+#6 D:\xampp\htdocs\quiz\app\Controller\TasksController.php(68): Model->find('list')
+#7 [internal function]: TasksController->add()
+#8 D:\xampp\htdocs\quiz\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#9 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#11 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-30 18:10:36 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.name' in 'field list'
+Request URL: /quiz/tasks/add
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(2905): DboSource->read(Object(User), Array)
+#5 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(2877): Model->_readDataSource('list', Array)
+#6 D:\xampp\htdocs\quiz\app\Controller\TasksController.php(68): Model->find('list')
+#7 [internal function]: TasksController->add()
+#8 D:\xampp\htdocs\quiz\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#9 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#11 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-30 22:00:15 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [D:\xampp\htdocs\quiz\lib\Cake\View\View.php, line 1104]
+2014-07-30 22:00:15 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /quiz/pages/task/
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'D:\xampp\htdocs...', 1104)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'D:\xampp\htdocs...', 1104, Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'D:\xampp\htdocs...', 1104, Array)
+#3 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-31 05:22:59 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [D:\xampp\htdocs\quiz\app\Controller\SetsController.php, line 2]
+2014-07-31 05:22:59 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /quiz/login
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'D:\xampp\htdocs...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'D:\xampp\htdocs...', 2, Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'D:\xampp\htdocs...', 2, Array)
+#3 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-31 11:29:11 Error: [MissingControllerException] Controller class AllUserController could not be found.
+Exception Attributes: array (
+  'class' => 'AllUserController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/allUser
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 11:34:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 11:47:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 11:47:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 11:48:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 11:48:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 11:48:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 11:50:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 11:50:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 11:50:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 11:50:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 11:53:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 11:54:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 11:56:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 11:56:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 11:58:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 11:58:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 12:01:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 12:01:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 12:01:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 12:02:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 12:02:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 12:03:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 12:03:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 12:03:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 12:16:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 12:17:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 12:17:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 12:18:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 12:19:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 12:20:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 12:21:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 12:22:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 12:22:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 06:23:22 Error: [MissingActionException] Action ExamController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'ExamController',
+  'action' => 'assets',
+)
+Request URL: /quiz/exam/assets/img/avatar.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ExamController), Object(CakeRequest))
+#2 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-31 06:23:22 Error: [MissingActionException] Action ExamController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'ExamController',
+  'action' => 'assets',
+)
+Request URL: /quiz/exam/assets/img/avatar3.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ExamController), Object(CakeRequest))
+#2 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-31 06:23:23 Error: [MissingActionException] Action ExamController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'ExamController',
+  'action' => 'assets',
+)
+Request URL: /quiz/exam/assets/img/avatar2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ExamController), Object(CakeRequest))
+#2 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-31 06:23:23 Error: [MissingActionException] Action ExamController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'ExamController',
+  'action' => 'assets',
+)
+Request URL: /quiz/exam/assets/img/avatar5.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ExamController), Object(CakeRequest))
+#2 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-31 06:23:23 Error: [MissingActionException] Action ExamController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'ExamController',
+  'action' => 'assets',
+)
+Request URL: /quiz/exam/assets/img/avatar4.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ExamController), Object(CakeRequest))
+#2 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-31 12:24:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 12:28:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 13:33:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 13:35:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 13:36:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 13:41:53 Error: [MissingControllerException] Controller class Index-2.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index-2.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/index-2.html
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 13:52:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 13:53:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 13:54:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 14:05:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 14:06:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 14:07:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 14:11:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 14:11:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 14:12:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 17:08:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 17:10:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 17:11:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 17:11:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 17:13:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 17:14:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 17:17:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 17:19:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 17:21:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 17:22:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 17:22:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 17:23:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 17:23:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 17:24:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 17:24:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 17:25:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 17:26:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 17:31:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 17:32:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 22:33:45 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [D:\xampp\htdocs\quiz\app\View\Elements\admin.ctp, line 276]
+2014-07-31 22:33:45 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /quiz/
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\xampp\htdocs...', 276)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\xampp\htdocs...', 276, Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\xampp\htdocs...', 276, Array)
+#3 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-31 11:43:27 Error: [MissingTableException] Table groups for model Group was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'groups',
+  'class' => 'Group',
+  'ds' => 'default',
+)
+Request URL: /quiz/editUser/5
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(3501): Model->setSource('groups')
+#1 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(1357): Model->getDataSource()
+#2 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(2494): Model->schema()
+#3 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(1779): DboSource->fields(Object(Group), 'Group', '')
+#4 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(1238): DboSource->generateAssociationQuery(Object(User), Object(Group), 'hasAndBelongsTo...', 'Group', Array, Array, true)
+#5 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(1142): DboSource->queryAssociation(Object(User), Object(Group), 'hasAndBelongsTo...', 'Group', Array, Array, true, Array, 0, Array)
+#6 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(2905): DboSource->read(Object(User), Array)
+#7 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(2877): Model->_readDataSource('first', Array)
+#8 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(1596): Model->find('first', Array)
+#9 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UsersController.php(314): Model->read(NULL, '5')
+#10 [internal function]: UsersController->editUser('5')
+#11 D:\xampp\htdocs\quiz\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#12 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#14 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-07-31 11:43:44 Error: [MissingTableException] Table groups for model Group was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'groups',
+  'class' => 'Group',
+  'ds' => 'default',
+)
+Request URL: /quiz/myprofile
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(3501): Model->setSource('groups')
+#1 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(1357): Model->getDataSource()
+#2 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(2494): Model->schema()
+#3 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(1779): DboSource->fields(Object(Group), 'Group', '')
+#4 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(1238): DboSource->generateAssociationQuery(Object(User), Object(Group), 'hasAndBelongsTo...', 'Group', Array, Array, true)
+#5 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(1142): DboSource->queryAssociation(Object(User), Object(Group), 'hasAndBelongsTo...', 'Group', Array, Array, true, Array, 0, Array)
+#6 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(2905): DboSource->read(Object(User), Array)
+#7 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(2877): Model->_readDataSource('first', Array)
+#8 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(1596): Model->find('first', Array)
+#9 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UsersController.php(75): Model->read(NULL, '5')
+#10 [internal function]: UsersController->myprofile()
+#11 D:\xampp\htdocs\quiz\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#12 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#14 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-07-31 11:46:38 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserGroup.user_id' in 'on clause'
+Request URL: /quiz/myprofile
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Group`....', Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Group`....', Array, Array)
+#3 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(1444): DboSource->fetchAll('SELECT `Group`....', false)
+#4 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(1297): DboSource->_fetchHasAndBelongsToMany(Object(User), 'SELECT `Group`....', Array, 'Group')
+#5 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(1142): DboSource->queryAssociation(Object(User), Object(Group), 'hasAndBelongsTo...', 'Group', Array, Array, true, Array, 0, Array)
+#6 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(2905): DboSource->read(Object(User), Array)
+#7 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(2877): Model->_readDataSource('first', Array)
+#8 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(1596): Model->find('first', Array)
+#9 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UsersController.php(75): Model->read(NULL, '5')
+#10 [internal function]: UsersController->myprofile()
+#11 D:\xampp\htdocs\quiz\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#12 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#14 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-07-31 11:49:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.group_id' in 'on clause'
+Request URL: /quiz/myprofile
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(2905): DboSource->read(Object(User), Array)
+#5 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(2877): Model->_readDataSource('first', Array)
+#6 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(1596): Model->find('first', Array)
+#7 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UsersController.php(75): Model->read(NULL, '5')
+#8 [internal function]: UsersController->myprofile()
+#9 D:\xampp\htdocs\quiz\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-31 18:00:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:01:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:14:38 Error: [MissingControllerException] Controller class AvatarController could not be found.
+Exception Attributes: array (
+  'class' => 'AvatarController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/img/avatar/1406823137.png
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:20:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:21:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:22:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:22:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:23:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:23:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:26:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:28:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:31:41 Error: [MissingControllerException] Controller class ProfileController could not be found.
+Exception Attributes: array (
+  'class' => 'ProfileController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/profile
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:32:01 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:32:01 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar4.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:32:01 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar3.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:32:01 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar5.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:32:01 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:32:56 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar5.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:32:56 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:32:56 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar3.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:32:56 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:32:56 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar4.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:33:10 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:33:10 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:33:10 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar5.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:33:10 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar3.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:33:11 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar4.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:33:16 Error: [MissingControllerException] Controller class Widgets.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Widgets.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/widgets.html
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:34:26 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:34:26 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar4.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:34:26 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:34:27 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar3.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:34:27 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar5.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:35:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:35:26 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:35:26 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar3.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:35:27 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:35:27 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar4.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:35:27 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar5.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:35:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:37:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:37:48 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:37:48 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar3.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:37:48 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:37:48 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar5.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:37:48 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar4.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:37:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:38:40 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:38:40 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar3.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:38:40 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:38:41 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar4.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:38:41 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar5.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:38:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:42:45 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:42:45 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar3.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:42:45 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:42:45 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar4.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:42:46 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:42:46 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/assets/img/avatar5.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 19:16:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 18:41:03 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'getNameById' at line 1
+Request URL: /quiz/changeUserPassword/5
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('getNameById', Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('getNameById', Array, Array)
+#3 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('getNameById', Array, Array)
+#4 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(800): DboSource->query('getNameById', Array, Object(User))
+#5 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UsersController.php(301): Model->__call('getNameById', Array)
+#6 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UsersController.php(301): User->getNameById('5')
+#7 [internal function]: UsersController->changeUserPassword('5')
+#8 D:\xampp\htdocs\quiz\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-31 18:41:17 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'getNameById' at line 1
+Request URL: /quiz/changeUserPassword/5
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('getNameById', Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('getNameById', Array, Array)
+#3 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('getNameById', Array, Array)
+#4 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(800): DboSource->query('getNameById', Array, Object(User))
+#5 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UsersController.php(301): Model->__call('getNameById', Array)
+#6 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UsersController.php(301): User->getNameById('5')
+#7 [internal function]: UsersController->changeUserPassword('5')
+#8 D:\xampp\htdocs\quiz\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-31 18:47:00 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'getNameById' at line 1
+Request URL: /quiz/changeUserPassword/5
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('getNameById', Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('getNameById', Array, Array)
+#3 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('getNameById', Array, Array)
+#4 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(800): DboSource->query('getNameById', Array, Object(User))
+#5 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UsersController.php(301): Model->__call('getNameById', Array)
+#6 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UsersController.php(301): User->getNameById('5')
+#7 [internal function]: UsersController->changeUserPassword('5')
+#8 D:\xampp\htdocs\quiz\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-31 18:54:58 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'RegisterValidate' at line 1
+Request URL: /quiz/changeUserPassword/1?name=admin
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('RegisterValidat...', Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('RegisterValidat...', Array, Array)
+#3 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('RegisterValidat...', Array, Array)
+#4 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(800): DboSource->query('RegisterValidat...', Array, Object(User))
+#5 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UsersController.php(306): Model->__call('RegisterValidat...', Array)
+#6 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UsersController.php(306): User->RegisterValidate()
+#7 [internal function]: UsersController->changeUserPassword('1')
+#8 D:\xampp\htdocs\quiz\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-31 18:55:23 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'RegisterValidate' at line 1
+Request URL: /quiz/changeUserPassword/1?name=admin
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('RegisterValidat...', Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('RegisterValidat...', Array, Array)
+#3 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('RegisterValidat...', Array, Array)
+#4 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(800): DboSource->query('RegisterValidat...', Array, Object(AppModel))
+#5 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UsersController.php(306): Model->__call('RegisterValidat...', Array)
+#6 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UsersController.php(306): AppModel->RegisterValidate()
+#7 [internal function]: UsersController->changeUserPassword('1')
+#8 D:\xampp\htdocs\quiz\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-31 18:55:45 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'RegisterValidate' at line 1
+Request URL: /quiz/changeUserPassword/1?name=admin
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('RegisterValidat...', Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('RegisterValidat...', Array, Array)
+#3 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('RegisterValidat...', Array, Array)
+#4 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(800): DboSource->query('RegisterValidat...', Array, Object(AppModel))
+#5 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UsersController.php(306): Model->__call('RegisterValidat...', Array)
+#6 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UsersController.php(306): AppModel->RegisterValidate()
+#7 [internal function]: UsersController->changeUserPassword('1')
+#8 D:\xampp\htdocs\quiz\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-31 18:55:58 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'RegisterValidate' at line 1
+Request URL: /quiz/changeUserPassword/1?name=admin
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('RegisterValidat...', Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('RegisterValidat...', Array, Array)
+#3 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('RegisterValidat...', Array, Array)
+#4 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(800): DboSource->query('RegisterValidat...', Array, Object(AppModel))
+#5 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UsersController.php(306): Model->__call('RegisterValidat...', Array)
+#6 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UsersController.php(306): AppModel->RegisterValidate()
+#7 [internal function]: UsersController->changeUserPassword('1')
+#8 D:\xampp\htdocs\quiz\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-31 18:57:31 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'RegisterValidate' at line 1
+Request URL: /quiz/changeUserPassword/1?name=admin
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('RegisterValidat...', Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('RegisterValidat...', Array, Array)
+#3 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('RegisterValidat...', Array, Array)
+#4 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(800): DboSource->query('RegisterValidat...', Array, Object(AppModel))
+#5 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UsersController.php(306): Model->__call('RegisterValidat...', Array)
+#6 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UsersController.php(306): AppModel->RegisterValidate()
+#7 [internal function]: UsersController->changeUserPassword('1')
+#8 D:\xampp\htdocs\quiz\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-08-01 02:32:17 Error: [MissingControllerException] Controller class AvatarController could not be found.
+Exception Attributes: array (
+  'class' => 'AvatarController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/img/avatar/1484170_729888777023163_1037688379_n_100.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-01 02:32:23 Error: [MissingControllerException] Controller class AvatarController could not be found.
+Exception Attributes: array (
+  'class' => 'AvatarController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/img/avatar/1484170_729888777023163_1037688379_n_100.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-01 02:52:20 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => 'Usermgmt',
+)
+Request URL: /quiz/usermgmt/user/save_capture
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 20:53:28 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /quiz/usermgmt/users/save_capture
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `wp...', Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `wp...')
+#3 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(1834): DboSource->create(Object(User), Array, Array)
+#4 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UsersController.php(194): Model->save(Array)
+#5 [internal function]: UsersController->save_capture()
+#6 D:\xampp\htdocs\quiz\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-08-01 02:59:53 Error: [MissingControllerException] Controller class AvatarController could not be found.
+Exception Attributes: array (
+  'class' => 'AvatarController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/img/avatar/1406854687_100.png
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-01 02:59:54 Error: [MissingControllerException] Controller class AvatarController could not be found.
+Exception Attributes: array (
+  'class' => 'AvatarController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/img/avatar/1406854687_100.png
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-01 03:00:01 Error: [MissingControllerException] Controller class AvatarController could not be found.
+Exception Attributes: array (
+  'class' => 'AvatarController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/img/avatar/1406854687_100.png
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-01 03:00:02 Error: [MissingControllerException] Controller class AvatarController could not be found.
+Exception Attributes: array (
+  'class' => 'AvatarController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/img/avatar/1406854687_100.png
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 21:20:19 Error: Fatal Error (1): Class 'AuthComponent' not found in [D:\xampp\htdocs\quiz\app\Model\User.php, line 106]
+2014-07-31 21:20:19 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /quiz/usermgmt/users/save_capture
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', 'D:\xampp\htdocs...', 106)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', 'D:\xampp\htdocs...', 106, Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', 'D:\xampp\htdocs...', 106, Array)
+#3 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-31 21:21:56 Error: Fatal Error (1): Class 'AuthComponent' not found in [D:\xampp\htdocs\quiz\app\Model\User.php, line 106]
+2014-07-31 21:21:56 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /quiz/usermgmt/users/save_capture
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', 'D:\xampp\htdocs...', 106)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', 'D:\xampp\htdocs...', 106, Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', 'D:\xampp\htdocs...', 106, Array)
+#3 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-31 21:23:56 Error: Fatal Error (1): Class 'AuthComponent' not found in [D:\xampp\htdocs\quiz\app\Model\User.php, line 106]
+2014-07-31 21:23:56 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /quiz/usermgmt/users/save_capture
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', 'D:\xampp\htdocs...', 106)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', 'D:\xampp\htdocs...', 106, Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', 'D:\xampp\htdocs...', 106, Array)
+#3 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-31 21:24:35 Error: Fatal Error (1): Class 'AuthComponent' not found in [D:\xampp\htdocs\quiz\app\Model\User.php, line 106]
+2014-07-31 21:24:35 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /quiz/usermgmt/users/save_capture
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', 'D:\xampp\htdocs...', 106)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', 'D:\xampp\htdocs...', 106, Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', 'D:\xampp\htdocs...', 106, Array)
+#3 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-31 21:25:07 Error: Fatal Error (1): Class 'AuthComponent' not found in [D:\xampp\htdocs\quiz\app\Model\User.php, line 106]
+2014-07-31 21:25:07 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /quiz/usermgmt/users/save_capture
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', 'D:\xampp\htdocs...', 106)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', 'D:\xampp\htdocs...', 106, Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', 'D:\xampp\htdocs...', 106, Array)
+#3 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-31 21:25:24 Error: Fatal Error (1): Class 'AuthComponent' not found in [D:\xampp\htdocs\quiz\app\Model\User.php, line 106]
+2014-07-31 21:25:24 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /quiz/usermgmt/users/save_capture
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', 'D:\xampp\htdocs...', 106)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', 'D:\xampp\htdocs...', 106, Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', 'D:\xampp\htdocs...', 106, Array)
+#3 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-01 03:29:47 Error: [MissingControllerException] Controller class AvatarController could not be found.
+Exception Attributes: array (
+  'class' => 'AvatarController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/img/avatar/1406855847_100.png
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-01 03:29:49 Error: [MissingControllerException] Controller class AvatarController could not be found.
+Exception Attributes: array (
+  'class' => 'AvatarController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/img/avatar/1406855847_100.png
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-31 21:29:56 Error: Fatal Error (1): Class 'AuthComponent' not found in [D:\xampp\htdocs\quiz\app\Model\User.php, line 106]
+2014-07-31 21:29:56 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /quiz/usermgmt/users/save_capture
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', 'D:\xampp\htdocs...', 106)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', 'D:\xampp\htdocs...', 106, Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', 'D:\xampp\htdocs...', 106, Array)
+#3 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-01 10:11:33 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UsersController.php, line 162]
+2014-08-01 10:11:33 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /quiz/myprofile
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\xampp\htdocs...', 162)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\xampp\htdocs...', 162, Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\xampp\htdocs...', 162, Array)
+#3 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-02 17:28:40 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UsersController.php, line 162]
+2014-08-02 17:28:40 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /quiz/myprofile
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\xampp\htdocs...', 162)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\xampp\htdocs...', 162, Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\xampp\htdocs...', 162, Array)
+#3 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-02 20:19:26 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UsersController.php, line 162]
+2014-08-02 20:19:26 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /quiz/myprofile
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\xampp\htdocs...', 162)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\xampp\htdocs...', 162, Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\xampp\htdocs...', 162, Array)
+#3 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-02 15:32:18 Error: [MissingPluginException] Plugin Facebook could not be found.
+Exception Attributes: array (
+  'plugin' => 'Facebook',
+)
+Request URL: /quiz/exam
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(365): CakePlugin::path('Facebook')
+#1 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(226): App::pluginPath('Facebook')
+#2 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(464): App::path('Controller', 'Facebook')
+#3 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\Component\ControllerListComponent.php(45): App::objects('Facebook.Contro...')
+#4 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\Component\ControllerListComponent.php(134): ControllerListComponent->get()
+#5 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\Component\UserAuthComponent.php(67): ControllerListComponent->getControllerWithMethods()
+#6 D:\xampp\htdocs\quiz\app\Controller\AppController.php(64): UserAuthComponent->beforeFilter(Object(ExamController))
+#7 D:\xampp\htdocs\quiz\app\Controller\AppController.php(69): AppController->userAuth()
+#8 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#9 D:\xampp\htdocs\quiz\lib\Cake\Event\CakeEventManager.php(244): call_user_func(Array, Object(CakeEvent))
+#10 D:\xampp\htdocs\quiz\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#12 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ExamController), Object(CakeRequest))
+#13 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-08-02 15:32:57 Error: [MissingPluginException] Plugin Facebook could not be found.
+Exception Attributes: array (
+  'plugin' => 'Facebook',
+)
+Request URL: /quiz/login
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(365): CakePlugin::path('Facebook')
+#1 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(226): App::pluginPath('Facebook')
+#2 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(464): App::path('Controller', 'Facebook')
+#3 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\Component\ControllerListComponent.php(45): App::objects('Facebook.Contro...')
+#4 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\Component\ControllerListComponent.php(134): ControllerListComponent->get()
+#5 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\Component\UserAuthComponent.php(67): ControllerListComponent->getControllerWithMethods()
+#6 D:\xampp\htdocs\quiz\app\Controller\AppController.php(64): UserAuthComponent->beforeFilter(Object(UsersController))
+#7 D:\xampp\htdocs\quiz\app\Controller\AppController.php(69): AppController->userAuth()
+#8 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UserMgmtAppController.php(24): AppController->beforeFilter()
+#9 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UsersController.php(35): UserMgmtAppController->beforeFilter()
+#10 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#11 D:\xampp\htdocs\quiz\lib\Cake\Event\CakeEventManager.php(244): call_user_func(Array, Object(CakeEvent))
+#12 D:\xampp\htdocs\quiz\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#13 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#14 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-08-02 15:33:13 Error: [MissingPluginException] Plugin HybridAuth could not be found.
+Exception Attributes: array (
+  'plugin' => 'HybridAuth',
+)
+Request URL: /quiz/login
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(365): CakePlugin::path('HybridAuth')
+#1 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(226): App::pluginPath('HybridAuth')
+#2 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(464): App::path('Controller', 'HybridAuth')
+#3 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\Component\ControllerListComponent.php(45): App::objects('HybridAuth.Cont...')
+#4 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\Component\ControllerListComponent.php(134): ControllerListComponent->get()
+#5 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\Component\UserAuthComponent.php(67): ControllerListComponent->getControllerWithMethods()
+#6 D:\xampp\htdocs\quiz\app\Controller\AppController.php(64): UserAuthComponent->beforeFilter(Object(UsersController))
+#7 D:\xampp\htdocs\quiz\app\Controller\AppController.php(69): AppController->userAuth()
+#8 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UserMgmtAppController.php(24): AppController->beforeFilter()
+#9 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UsersController.php(35): UserMgmtAppController->beforeFilter()
+#10 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#11 D:\xampp\htdocs\quiz\lib\Cake\Event\CakeEventManager.php(244): call_user_func(Array, Object(CakeEvent))
+#12 D:\xampp\htdocs\quiz\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#13 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#14 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-08-04 17:47:16 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/login/
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 17:47:35 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/login
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 11:49:38 Error: [MissingPluginException] Plugin HybridAuth could not be found.
+Exception Attributes: array (
+  'plugin' => 'HybridAuth',
+)
+Request URL: /quiz/login
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(365): CakePlugin::path('HybridAuth')
+#1 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(226): App::pluginPath('HybridAuth')
+#2 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(464): App::path('Controller', 'HybridAuth')
+#3 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\Component\ControllerListComponent.php(45): App::objects('HybridAuth.Cont...')
+#4 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\Component\ControllerListComponent.php(134): ControllerListComponent->get()
+#5 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\Component\UserAuthComponent.php(67): ControllerListComponent->getControllerWithMethods()
+#6 D:\xampp\htdocs\quiz\app\Controller\AppController.php(64): UserAuthComponent->beforeFilter(Object(UsersController))
+#7 D:\xampp\htdocs\quiz\app\Controller\AppController.php(69): AppController->userAuth()
+#8 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UserMgmtAppController.php(24): AppController->beforeFilter()
+#9 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UsersController.php(35): UserMgmtAppController->beforeFilter()
+#10 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#11 D:\xampp\htdocs\quiz\lib\Cake\Event\CakeEventManager.php(244): call_user_func(Array, Object(CakeEvent))
+#12 D:\xampp\htdocs\quiz\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#13 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#14 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-08-04 18:06:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 18:08:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-05 00:41:15 Error: [MissingPluginException] Plugin ExtAuth could not be found.
+Exception Attributes: array (
+  'plugin' => 'ExtAuth',
+)
+Request URL: /quiz/
+Stack Trace:
+#0 D:\xamp\htdocs\quiz\lib\Cake\Core\App.php(365): CakePlugin::path('ExtAuth')
+#1 D:\xamp\htdocs\quiz\lib\Cake\Core\App.php(226): App::pluginPath('ExtAuth')
+#2 D:\xamp\htdocs\quiz\lib\Cake\Core\App.php(464): App::path('Controller', 'ExtAuth')
+#3 D:\xamp\htdocs\quiz\app\Plugin\Usermgmt\Controller\Component\ControllerListComponent.php(45): App::objects('ExtAuth.Control...')
+#4 D:\xamp\htdocs\quiz\app\Plugin\Usermgmt\Controller\Component\ControllerListComponent.php(134): ControllerListComponent->get()
+#5 D:\xamp\htdocs\quiz\app\Plugin\Usermgmt\Controller\Component\UserAuthComponent.php(67): ControllerListComponent->getControllerWithMethods()
+#6 D:\xamp\htdocs\quiz\app\Controller\AppController.php(64): UserAuthComponent->beforeFilter(Object(PagesController))
+#7 D:\xamp\htdocs\quiz\app\Controller\AppController.php(69): AppController->userAuth()
+#8 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#9 D:\xamp\htdocs\quiz\lib\Cake\Event\CakeEventManager.php(244): call_user_func(Array, Object(CakeEvent))
+#10 D:\xamp\htdocs\quiz\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\xamp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#12 D:\xamp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#13 D:\xamp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-08-05 13:49:15 Error: [MissingPluginException] Plugin ExtAuth could not be found.
+Exception Attributes: array (
+  'plugin' => 'ExtAuth',
+)
+Request URL: /quiz/dashboard
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(365): CakePlugin::path('ExtAuth')
+#1 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(226): App::pluginPath('ExtAuth')
+#2 D:\xampp\htdocs\quiz\lib\Cake\Core\App.php(464): App::path('Controller', 'ExtAuth')
+#3 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\Component\ControllerListComponent.php(45): App::objects('ExtAuth.Control...')
+#4 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\Component\ControllerListComponent.php(134): ControllerListComponent->get()
+#5 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\Component\UserAuthComponent.php(67): ControllerListComponent->getControllerWithMethods()
+#6 D:\xampp\htdocs\quiz\app\Controller\AppController.php(64): UserAuthComponent->beforeFilter(Object(PagesController))
+#7 D:\xampp\htdocs\quiz\app\Controller\AppController.php(69): AppController->userAuth()
+#8 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#9 D:\xampp\htdocs\quiz\lib\Cake\Event\CakeEventManager.php(244): call_user_func(Array, Object(CakeEvent))
+#10 D:\xampp\htdocs\quiz\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#12 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#13 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-08-06 01:58:12 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'okekerja_ujian\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /quiz/logout/
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\xampp\htdocs\quiz\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(3479): ConnectionManager::getDataSource('default')
+#3 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#4 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(3501): Model->setSource('configs')
+#5 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#6 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#7 D:\xampp\htdocs\quiz\app\Controller\AppController.php(75): Model->find('all')
+#8 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UserMgmtAppController.php(24): AppController->beforeFilter()
+#9 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UsersController.php(35): UserMgmtAppController->beforeFilter()
+#10 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#11 D:\xampp\htdocs\quiz\lib\Cake\Event\CakeEventManager.php(244): call_user_func(Array, Object(CakeEvent))
+#12 D:\xampp\htdocs\quiz\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#13 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#14 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-08-06 01:58:17 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'okekerja_ujian\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /quiz/logout/
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\xampp\htdocs\quiz\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(3479): ConnectionManager::getDataSource('default')
+#3 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#4 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(3501): Model->setSource('configs')
+#5 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#6 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#7 D:\xampp\htdocs\quiz\app\Controller\AppController.php(75): Model->find('all')
+#8 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UserMgmtAppController.php(24): AppController->beforeFilter()
+#9 D:\xampp\htdocs\quiz\app\Plugin\Usermgmt\Controller\UsersController.php(35): UserMgmtAppController->beforeFilter()
+#10 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#11 D:\xampp\htdocs\quiz\lib\Cake\Event\CakeEventManager.php(244): call_user_func(Array, Object(CakeEvent))
+#12 D:\xampp\htdocs\quiz\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#13 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#14 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-08-06 01:58:23 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'okekerja_ujian\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /quiz/
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\xampp\htdocs\quiz\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(3479): ConnectionManager::getDataSource('default')
+#3 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#4 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(3501): Model->setSource('configs')
+#5 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#6 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#7 D:\xampp\htdocs\quiz\app\Controller\AppController.php(75): Model->find('all')
+#8 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#9 D:\xampp\htdocs\quiz\lib\Cake\Event\CakeEventManager.php(244): call_user_func(Array, Object(CakeEvent))
+#10 D:\xampp\htdocs\quiz\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#12 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#13 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-08-06 01:58:24 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'okekerja_ujian\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /quiz/
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\xampp\htdocs\quiz\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(3479): ConnectionManager::getDataSource('default')
+#3 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#4 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(3501): Model->setSource('configs')
+#5 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#6 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#7 D:\xampp\htdocs\quiz\app\Controller\AppController.php(75): Model->find('all')
+#8 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#9 D:\xampp\htdocs\quiz\lib\Cake\Event\CakeEventManager.php(244): call_user_func(Array, Object(CakeEvent))
+#10 D:\xampp\htdocs\quiz\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#12 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#13 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-08-05 21:09:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-05 21:09:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /quiz/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-11 23:42:24 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'wpquiz\'',
+  'enabled' => true,
+)
+Request URL: /quiz/
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\xampp\htdocs\quiz\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(3479): ConnectionManager::getDataSource('default')
+#3 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#4 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(3501): Model->setSource('configs')
+#5 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#6 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#7 D:\xampp\htdocs\quiz\app\Controller\AppController.php(75): Model->find('all')
+#8 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#9 D:\xampp\htdocs\quiz\lib\Cake\Event\CakeEventManager.php(244): call_user_func(Array, Object(CakeEvent))
+#10 D:\xampp\htdocs\quiz\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#12 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#13 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-08-16 14:36:18 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'wpquiz\'',
+  'enabled' => true,
+)
+Request URL: /quiz/
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\xampp\htdocs\quiz\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(3479): ConnectionManager::getDataSource('default')
+#3 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#4 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(3501): Model->setSource('configs')
+#5 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#6 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#7 D:\xampp\htdocs\quiz\app\Controller\AppController.php(75): Model->find('all')
+#8 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#9 D:\xampp\htdocs\quiz\lib\Cake\Event\CakeEventManager.php(244): call_user_func(Array, Object(CakeEvent))
+#10 D:\xampp\htdocs\quiz\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#12 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#13 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-08-17 02:21:01 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'wpquiz\'',
+  'enabled' => true,
+)
+Request URL: /quiz/
+Stack Trace:
+#0 D:\xampp\htdocs\quiz\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\xampp\htdocs\quiz\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(3479): ConnectionManager::getDataSource('default')
+#3 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#4 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(3501): Model->setSource('configs')
+#5 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#6 D:\xampp\htdocs\quiz\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#7 D:\xampp\htdocs\quiz\app\Controller\AppController.php(75): Model->find('all')
+#8 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#9 D:\xampp\htdocs\quiz\lib\Cake\Event\CakeEventManager.php(244): call_user_func(Array, Object(CakeEvent))
+#10 D:\xampp\htdocs\quiz\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#12 D:\xampp\htdocs\quiz\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#13 D:\xampp\htdocs\quiz\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-08-19 20:19:05 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'wpquiz\'',
+  'enabled' => true,
+)
+Request URL: /_base_code/
+Stack Trace:
+#0 D:\xampp\htdocs\_base_code\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\xampp\htdocs\_base_code\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(3479): ConnectionManager::getDataSource('default')
+#3 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#4 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(3501): Model->setSource('configs')
+#5 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#6 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#7 D:\xampp\htdocs\_base_code\app\Controller\AppController.php(75): Model->find('all')
+#8 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#9 D:\xampp\htdocs\_base_code\lib\Cake\Event\CakeEventManager.php(244): call_user_func(Array, Object(CakeEvent))
+#10 D:\xampp\htdocs\_base_code\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\xampp\htdocs\_base_code\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#12 D:\xampp\htdocs\_base_code\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#13 D:\xampp\htdocs\_base_code\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-08-19 20:20:57 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'wpquiz\'',
+  'enabled' => true,
+)
+Request URL: /_base_code/
+Stack Trace:
+#0 D:\xampp\htdocs\_base_code\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\xampp\htdocs\_base_code\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(3479): ConnectionManager::getDataSource('default')
+#3 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#4 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(3501): Model->setSource('statistics')
+#5 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#6 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#7 D:\xampp\htdocs\_base_code\app\Controller\PagesController.php(94): Model->find('all', Array)
+#8 [internal function]: PagesController->index()
+#9 D:\xampp\htdocs\_base_code\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#10 D:\xampp\htdocs\_base_code\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 D:\xampp\htdocs\_base_code\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 D:\xampp\htdocs\_base_code\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-08-19 20:23:00 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'wpquiz\'',
+  'enabled' => true,
+)
+Request URL: /_base_code/
+Stack Trace:
+#0 D:\xampp\htdocs\_base_code\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\xampp\htdocs\_base_code\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(3479): ConnectionManager::getDataSource('default')
+#3 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#4 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(3501): Model->setSource('statistics')
+#5 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#6 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#7 D:\xampp\htdocs\_base_code\app\Controller\PagesController.php(94): Model->find('all', Array)
+#8 [internal function]: PagesController->index()
+#9 D:\xampp\htdocs\_base_code\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#10 D:\xampp\htdocs\_base_code\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 D:\xampp\htdocs\_base_code\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 D:\xampp\htdocs\_base_code\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-08-19 15:24:05 Error: Fatal Error (4): syntax error, unexpected ';' in [D:\xampp\htdocs\_base_code\app\Controller\AppController.php, line 79]
+2014-08-19 15:24:05 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /_base_code/
+Stack Trace:
+#0 D:\xampp\htdocs\_base_code\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\xampp\htdocs...', 79)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\xampp\htdocs...', 79, Array)
+#2 D:\xampp\htdocs\_base_code\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\xampp\htdocs...', 79, Array)
+#3 D:\xampp\htdocs\_base_code\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-19 20:24:31 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'wpquiz\'',
+  'enabled' => true,
+)
+Request URL: /_base_code/
+Stack Trace:
+#0 D:\xampp\htdocs\_base_code\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\xampp\htdocs\_base_code\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(3479): ConnectionManager::getDataSource('default')
+#3 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#4 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(3501): Model->setSource('statistics')
+#5 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#6 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#7 D:\xampp\htdocs\_base_code\app\Controller\PagesController.php(94): Model->find('all', Array)
+#8 [internal function]: PagesController->index()
+#9 D:\xampp\htdocs\_base_code\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#10 D:\xampp\htdocs\_base_code\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 D:\xampp\htdocs\_base_code\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 D:\xampp\htdocs\_base_code\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-08-19 20:25:11 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'wpquiz\'',
+  'enabled' => true,
+)
+Request URL: /_base_code/
+Stack Trace:
+#0 D:\xampp\htdocs\_base_code\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\xampp\htdocs\_base_code\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(3479): ConnectionManager::getDataSource('default')
+#3 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#4 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(3501): Model->setSource('statistics')
+#5 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#6 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#7 D:\xampp\htdocs\_base_code\app\Controller\PagesController.php(94): Model->find('all', Array)
+#8 [internal function]: PagesController->index()
+#9 D:\xampp\htdocs\_base_code\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#10 D:\xampp\htdocs\_base_code\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 D:\xampp\htdocs\_base_code\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 D:\xampp\htdocs\_base_code\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-08-19 20:25:32 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'wpquiz\'',
+  'enabled' => true,
+)
+Request URL: /_base_code/
+Stack Trace:
+#0 D:\xampp\htdocs\_base_code\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\xampp\htdocs\_base_code\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(3479): ConnectionManager::getDataSource('default')
+#3 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#4 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(3501): Model->setSource('statistics')
+#5 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#6 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#7 D:\xampp\htdocs\_base_code\app\Controller\PagesController.php(94): Model->find('all', Array)
+#8 [internal function]: PagesController->index()
+#9 D:\xampp\htdocs\_base_code\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#10 D:\xampp\htdocs\_base_code\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 D:\xampp\htdocs\_base_code\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 D:\xampp\htdocs\_base_code\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-08-19 15:25:42 Error: [MissingControllerException] Controller class ExamController could not be found.
+Exception Attributes: array (
+  'class' => 'ExamController',
+  'plugin' => NULL,
+)
+Request URL: /_base_code/exam/
+Stack Trace:
+#0 D:\xampp\htdocs\_base_code\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-19 15:25:45 Error: [MissingControllerException] Controller class MyexamController could not be found.
+Exception Attributes: array (
+  'class' => 'MyexamController',
+  'plugin' => NULL,
+)
+Request URL: /_base_code/myexam/
+Stack Trace:
+#0 D:\xampp\htdocs\_base_code\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-19 20:26:29 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'wpquiz\'',
+  'enabled' => true,
+)
+Request URL: /_base_code/
+Stack Trace:
+#0 D:\xampp\htdocs\_base_code\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\xampp\htdocs\_base_code\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(3479): ConnectionManager::getDataSource('default')
+#3 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#4 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(3501): Model->setSource('statistics')
+#5 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#6 D:\xampp\htdocs\_base_code\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#7 D:\xampp\htdocs\_base_code\app\Controller\PagesController.php(94): Model->find('all', Array)
+#8 [internal function]: PagesController->index()
+#9 D:\xampp\htdocs\_base_code\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#10 D:\xampp\htdocs\_base_code\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 D:\xampp\htdocs\_base_code\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 D:\xampp\htdocs\_base_code\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
