@@ -7,8 +7,8 @@ class DATABASE_CONFIG {
         'persistent' => false,
         'host' => 'localhost',
         'login' => 'root',
-        'password' => '',
-        'database' => 'wpquiz',
+        'password' => 'bitnami',
+        'database' => 'base_app',
         'prefix' => '',
         'encoding' => 'utf8'
     );

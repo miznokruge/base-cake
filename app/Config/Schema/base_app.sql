@@ -128,6 +128,32 @@ CREATE TABLE `login_tokens` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 
+DROP TABLE IF EXISTS `memberships`;
+CREATE TABLE `memberships` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) NOT NULL,
+  `price` decimal(10,0) NOT NULL,
+  `valid_until` int(11) NOT NULL,
+  `created` datetime DEFAULT NULL,
+  `modified` datetime DEFAULT NULL,
+  `deleted` tinyint(3) NOT NULL DEFAULT '0',
+  `display` int(1) NOT NULL,
+  `class` varchar(50) NOT NULL,
+  `pembahasan_soal` varchar(12) NOT NULL,
+  `kunci_jawaban` varchar(12) NOT NULL,
+  `kisi2_soal` varchar(12) NOT NULL,
+  `jumlah_set_soal` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+INSERT INTO `memberships` (`id`, `name`, `price`, `valid_until`, `created`, `modified`, `deleted`, `display`, `class`, `pembahasan_soal`, `kunci_jawaban`, `kisi2_soal`, `jumlah_set_soal`) VALUES
+(1,	'admin',	0,	0,	'2012-02-26 21:15:51',	'2012-02-26 21:15:51',	0,	0,	'',	'',	'',	'',	'0'),
+(2,	'Platinum',	5000000,	12,	'2012-02-26 21:16:02',	'2012-02-26 21:16:02',	0,	1,	'',	'ok',	'ok',	'ok',	'unlimited'),
+(3,	'Gold',	3500000,	8,	'2012-02-26 21:16:08',	'2012-02-26 21:16:08',	0,	1,	'orange',	'remove',	'ok',	'remove',	'100'),
+(4,	'Silver',	2000000,	6,	'2012-04-16 11:37:45',	'2012-04-16 11:37:45',	0,	1,	'',	'remove',	'ok',	'remove',	'60'),
+(5,	'Premium',	1000000,	3,	'2012-11-21 05:47:48',	'2012-11-21 05:47:48',	0,	1,	'',	'remove',	'remove',	'remove',	'40'),
+(6,	'Standard',	0,	0,	'2012-11-22 02:40:15',	'2012-11-22 02:40:15',	0,	0,	'',	'remove',	'remove',	'remove',	'20');
+
 DROP TABLE IF EXISTS `menus`;
 CREATE TABLE `menus` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -1139,4 +1165,4 @@ INSERT INTO `user_group_permissions` (`id`, `user_group_id`, `controller`, `acti
 (511,	3,	'Users',	'social_login',	1,	'0000-00-00 00:00:00',	0),
 (512,	4,	'Users',	'social_login',	1,	'0000-00-00 00:00:00',	0);
 
--- 2015-12-13 15:49:04
+-- 2015-12-13 16:11:32
